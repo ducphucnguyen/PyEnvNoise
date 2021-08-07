@@ -2,7 +2,7 @@ Environmental noise analysis in Python
 =====================
 
 [![Language](https://img.shields.io/badge/python-v3.7-green.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/tsutterley/spatial-interpolators/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/ducphucnguyen/PyEnvNoise/blob/master/LICENSE)
 
 The library contains:
 
@@ -13,7 +13,7 @@ The library contains:
 
 Install latest version:
 
-- `pip install pyenvnoise`
+- `pip install pyenvnoise==0.1.0`
 
 Latest development version from git:
 

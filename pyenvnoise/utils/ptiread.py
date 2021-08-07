@@ -20,8 +20,7 @@ def ptiread(file_name):
         headerlinecnt += 1
         end_setup = numref + 13
         tline = fid.readline()
-        print(numref)
-        print(tline)
+
     
     while headerlinecnt<end_setup:
         tline = fid.readline()

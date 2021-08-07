@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "PyEnvNoise"
-version = "0.0.12"
+version = "0.1.0"
 readme = "README.md"
 description = "A package for environmental noise analysis"
 authors = [
