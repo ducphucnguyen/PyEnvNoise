@@ -19,7 +19,7 @@ Latest development version from git:
 
 ```
 pip install poetry # if not already installed
-pip install git+https://github.com/econforge/interpolation.py.git/
+pip install git+https://github.com/ducphucnguyen/PyEnvNoise.git
 ```
 
 ## Read *.pti files
