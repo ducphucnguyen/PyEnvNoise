@@ -1,8 +1,6 @@
-Environmental noise analysis in Python
-=====================
+# Environmental noise analysis in Python (Py_Env_Noise)
 
-[![Language](https://img.shields.io/badge/python-v3.7-green.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/tsutterley/spatial-interpolators/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/EconForge/interpolation.py.svg?branch=master)](https://travis-ci.org/EconForge/interpolation.py)
 
 The library contains:
 
@@ -13,7 +11,7 @@ The library contains:
 
 Install latest version:
 
-- `pip install pyenvnoise`
+- from PyPI: `pip install pyenvnoise`
 
 Latest development version from git:
 
@@ -24,7 +22,9 @@ pip install git+https://github.com/econforge/interpolation.py.git/
 
 ## Read *.pti files
 
-A fastest method to read acoustic files with *.pti extension
+Preferred interface for multilinear interpolation. It can interpolate on uniform
+and nonuniform cartesian grids. Several extrapolation options are available.
+
 
 ```python
 import pyenvnoise
