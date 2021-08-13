@@ -33,7 +33,7 @@ def ptiread(file_name):
             RECInfoSectionPos = int(tline.partition('=')[2])
      
         if headerlinecnt==(numref + 4):
-            SampleFrequency = int(tline.partition('=')[2])
+            SampleFrequency = int(float(tline.partition('=')[2]))
          
         if headerlinecnt==(numref+5):
             numchannels = int(tline.partition('=')[2])
@@ -86,7 +86,8 @@ def ptiread(file_name):
     factor = CorrectionFactor / 2**16
     
     # initilise array data
-    Data = np.empty([int(rawdata.shape[0]*rawdata.shape[1]/numchannels), 4])
+    Data = np.empty([int(rawdata.shape[0]*rawdata.shape[1]/numchannels), numchannels])
+    
     
     for i in range(numchannels):
         Data[:,i]= np.transpose( rawdata[:,i:rawdata.shape[1]:numchannels] ).ravel()*factor[i]
