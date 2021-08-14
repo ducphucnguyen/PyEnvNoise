@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "PyEnvNoise"
-version = "0.1.0"
+version = "0.1.1"
 readme = "README.md"
 description = "A package for environmental noise analysis"
 authors = [
@@ -14,10 +14,10 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.7"
-numba = ">=0.47"
+#numba = ">=0.47"
 numpy = ">=1.18.1"
-tempita = ">=0.5.2"
-scipy = ">=1.4.1"
+#tempita = ">=0.5.2"
+#scipy = ">=1.4.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

@@ -13,7 +13,7 @@ The library contains:
 
 Install latest version:
 
-- `pip install pyenvnoise==0.1.0`
+- `pip install pyenvnoise==0.1.1`
 
 Latest development version from git:
 
