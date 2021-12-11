@@ -6,12 +6,15 @@ Created on Fri Aug 13 15:10:58 2021
 """
 
 
-import numpy as np
-#from pyenvnoise.utils import ptiread
-# ptiread('R:\CMPH-Windfarm Field Study\Recording-2.2295.pti')
-file_name = 'R:\CMPH-Windfarm Field Study\Recording-2.2295.pti'
+from pyenvnoise.utils import ptiread
+data = ptiread('R:\CMPH-Windfarm Field Study\Hornsdale\set2\Recording-1.1.pti')
 
-fid = open(file_name, "r")
+import numpy as np
+
+
+file_name = 'R:\CMPH-Windfarm Field Study\Hornsdale\set2\Recording-1.1.pti'
+
+fid = open(file_name, "r", encoding='utf-8', errors='ignore')
     
 headerlinecnt = 1
 numref = 1

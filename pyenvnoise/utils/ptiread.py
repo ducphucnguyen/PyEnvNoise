@@ -3,7 +3,7 @@ import numpy as np
 
 def ptiread(file_name):
     
-    fid = open(file_name, "r")
+    fid = open(file_name, "r", encoding='utf-8', errors='ignore')
     
     headerlinecnt = 1
     numref = 1
